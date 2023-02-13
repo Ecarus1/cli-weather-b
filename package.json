@@ -2,14 +2,18 @@
   "name": "cli-weather-b",
   "version": "1.0.0",
   "private": false,
-  "description": "CLI for getting weather",
+  "description": "CLI application for getting weather data",
   "main": "weather.js",
   "bin": {
     "weather": "weather.js"
   },
+  "engines": {
+    "node": ">14"
+  },
+  "man": ["./README.md"],
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,14 +22,14 @@
   ],
   "author": "Andrey Solodovnikov",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/Ecarus1/cli-weather-b",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Ecarus1/cli-weather-b"
   },
   "bugs": {
-    "url": "",
-    "email": ""
+    "url": "https://github.com/Ecarus1/cli-weather-b",
+    "email": "lakon822@gmail.com"
   },
   "dependencies": {
     "axios": "^1.2.6",
